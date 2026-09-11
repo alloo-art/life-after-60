@@ -3,14 +3,14 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>은퇴 현금흐름 시뮬레이터</title>
+<title>내 은퇴 계산기 (커스텀)</title>
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
 <link rel="manifest" href="./manifest.webmanifest">
 <meta name="theme-color" content="#0b1020">
 <style>
-:root{--bg:#05080f;--bg2:#090e18;--bgc:#0c1220;--bgh:#111828;--gold:#c9a84c;--goldl:#e8c96a;--goldd:#7a5c18;--t1:#dde4f0;--t2:#7a8fa8;--t3:#3a5070;--bd:#162236;--bdl:#1e3050;--green:#2dbe74;--red:#e05555;--blue:#3b8fe8;--orange:#e8873b;--purple:#9b6fe0;--teal:#2bbfb0;--ibg:#060a12;--ibd:#1a2e48;--ifocus:#2a4060;}
+:root{--bg:#05080f;--bg2:#090e18;--bgc:#0c1220;--bgh:#111828;--gold:#4db6ac;--goldl:#7fd8cf;--goldd:#1e6e66;--t1:#dde4f0;--t2:#7a8fa8;--t3:#3a5070;--bd:#162236;--bdl:#1e3050;--green:#2dbe74;--red:#e05555;--blue:#3b8fe8;--orange:#e8873b;--purple:#9b6fe0;--teal:#2bbfb0;--ibg:#060a12;--ibd:#1a2e48;--ifocus:#2a4060;}
 *{margin:0;padding:0;box-sizing:border-box;}html{font-size:16px;}
 body{font-family:'Noto Sans KR',sans-serif;background:var(--bg);color:var(--t1);min-height:100vh;line-height:1.62;font-size:17px;}
 ::-webkit-scrollbar{width:5px;height:5px;}
@@ -411,13 +411,13 @@ body{font-size:18px;line-height:1.72;letter-spacing:.01em;}
   <div style="flex:1 1 720px;min-width:280px;">
     <div class="hdr-head-block">
       <div class="hdr-title-meta" role="group" aria-label="제목·버전·로컬 계산 안내">
-        <span class="hdr-logo">🏦 은퇴 현금흐름 시뮬레이터</span>
+        <span class="hdr-logo">📌 내 은퇴 계산기</span>
         <span id="hdr-publish" class="hdr-ver">Ver. 2026.04.04 17:40</span>
         <span class="hdr-note-green">· 모든 계산은 사용자의 브라우저(Local)에서 처리하고 결과만 보여주는 방식이라 보안상 안전합니다.</span>
       </div>
       <div class="hdr-sub" role="group" aria-label="기능·연락처·시뮬 안내">
         <span>실시간 주가·배당 · 절세전략 · AI분석 · 주택연금 ·</span>
-        <span style="font-size:11px;color:#87a5c8;font-weight:600;margin-left:4px;">허정훈 · <a href="mailto:hjh1014@naver.com" style="color:#87a5c8;text-decoration:none;">hjh1014@naver.com</a></span>
+        <span style="font-size:11px;color:#87a5c8;font-weight:600;margin-left:4px;">허정훈 · <a href="mailto:hjh1014@naver.com" style="color:#87a5c8;text-decoration:none;">hjh1014@naver.com</a></span><span style="font-size:11px;color:#7fd8cf;font-weight:600;margin-left:8px;">· 원본: 허정훈 님 도구, 색상·브랜딩만 커스터마이즈한 포크</span>
         <span class="hdr-note-green">· 단순 시뮬레이션 결과이며 실제 수령액과 다를 수 있습니다</span>
       </div>
     </div>
